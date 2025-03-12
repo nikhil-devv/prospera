@@ -19,7 +19,7 @@ public class BaseEntity {
     private Long recordId;
 
     @Builder.Default
-    @Column(name = "CREATED_ON")
+    @Column(name = "CREATED_ON",nullable = false,updatable = false)
     private Date createdOn = new Date();
 
 }
