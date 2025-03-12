@@ -10,4 +10,6 @@ public class ProsperaApplication {
 		SpringApplication.run(ProsperaApplication.class, args);
 	}
 
+
+
 }
