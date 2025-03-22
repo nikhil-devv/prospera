@@ -21,9 +21,9 @@ public class Account extends BaseEntity {
     private String accountNumber;
 
 
-
     @Column(nullable = false)
     private String accountType;
+
 
     @Column(nullable = false, precision = 19, scale = 2)
     private BigDecimal balance;
